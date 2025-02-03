@@ -1,0 +1,113 @@
+.dog {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+
+.ear-l, .ear-r {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  border: 3px solid black;
+  background: white;
+}
+
+.ear-l {
+  top: 30px;
+  left: 45px;
+  transform: rotate(-30deg);
+  border-radius: 50% 50% 0 0;
+}
+
+.ear-r {
+  top: 30px;
+  right: 45px;
+  transform: rotate(30deg);
+  border-radius: 50% 50% 0 0;
+}
+
+.eye-l, .eye-r {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  top: 40px;
+}
+
+.eye-l {
+  left: 30px;
+}
+
+.eye-r {
+  right: 30px;
+}
+
+.nose {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mouth {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  border-bottom: 3px solid black;
+  border-radius: 0 0 30px 30px;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.body {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 40px;
+  top: 140px;
+  left: 60px;
+}
+
+.tail {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: black;
+  top: 150px;
+  right: 30px;
+  transform: rotate(-30deg);
+}
+
+.leg-1, .leg-2 {
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  background: black;
+  top: 190px;
+}
+
+.leg-1 {
+  left: 80px;
+}
+
+.leg-2 {
+  left: 120px;
+}
